@@ -4,15 +4,14 @@ mem = 16000
 nodes = 1
 cpus-per-task = 2
 job-name = "xnat2bids"
-output = "/gpfs/data/bnc/scratch/logs/%J.txt"
+output = "/gpfs/scratch/%u/logs/xnat2bids_test%J.log"
 mail-user = "example-user@brown.edu"
 mail-type = "ALL"
 
 [xnat2bids-args]
-session = "XNAT_E00152"
+sessions = ["XNAT_E00152"]
 bids_root = "/gpfs/data/bnc/shared/bids-export/"
 version = ""
-bids_root_dir=""
 host="https://xnat.bnc.brown.edu"
 session-suffix=-1
 bidsmap-file="/gpfs/data/bnc/shared/scripts/fmcdona4/bidsmap.json"
