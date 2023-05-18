@@ -407,7 +407,7 @@ async def launch_bids_validator(arg_dict, user, password, bids_root, job_deps):
     slurm_options = slurm_options.replace("--job-name xnat2bids", "--job-name bids-validator")
 
     # Fetch JOB-IDs of xnat2bids jobs to wait upon
-    afterok_ids = ":".join(job_deps)
+    afterok_ids = ",".join(job_deps)
 
     sbatch_bids_val_cmd = shlex.split(f"sbatch -d afterok:{afterok_ids} {slurm_options} \
         --wrap {sbatch_bids_val_script}") 
