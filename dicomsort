@@ -32,7 +32,7 @@ pnametag='0018,1030'    #protocol name
 
 usage='Usage: dicomsort [-r] [-d destdir] [-s sourcedir] [-i] [-q] [-n] [-h]'
 helptxt="dicom sort is a script to sort rename dicom files in alphabetical order according to\n\
-series and slice number.  AFNI must be installed on the local computer to use dicomsort."
+series and slice number.  AFNI must be installed on the local computer to use dicomsort...."
 
 #process command line options
 while getopts ":rd:s:iqnh" options; do
