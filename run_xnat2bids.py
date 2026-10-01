@@ -48,6 +48,7 @@ xnat2bids_params = {
     "skip-export": (ParamType.FLAG_ONLY, False),
     "skipseq": (ParamType.MULTI_VAL, False),
     "validate_frames": (ParamType.FLAG_ONLY, False),
+    "reface-mode": (ParamType.PARAM_VAL, False),
     "version": (ParamType.PARAM_VAL, False),
     "verbose": (ParamType.MULTI_FLAG, False),
 }
