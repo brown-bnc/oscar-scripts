@@ -1,31 +1,23 @@
 # Configuring arguments here will override default parameters.
-
 [slurm-args]
 mail-user = "example-user@brown.edu"
 mail-type = "ALL"
 
 [xnat2bids-args]
-project="BNC_DEMODAT"
-subjects=["001", "002"]
 sessions = [
-    "XNAT_E00080", 
-    "XNAT_E00114",  
-    "XNAT_E00152"
+    "XNAT_E03266",
+    "XNAT_E03263",
+    "XNAT_E01943"
     ]
-skipseq=["anat-t1w_acq-memprage"]
-overwrite=true
-verbose=0
+skipseq = ["anat-scout_acq-localizer"]
 
 # Define custom parameters for a given session by creating a section 
 # with the Accession identifier with values for specific arguments.
+[XNAT_E03266]
+includeseq = [7,10]
 
-[XNAT_E00080]
-includeseq=[19, 21]
+[XNAT_E03263]
+includeseq = [6,11]
 
-[XNAT_E00114]
-includeseq=[7,8,11,14]
-verbose=2
-
-[XNAT_E00152]
-includeseq=[7,8,9,10,11]
-verbose=1
+[XNAT_E01943]
+includeseq = [5,11]

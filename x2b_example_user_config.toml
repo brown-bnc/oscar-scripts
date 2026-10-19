@@ -4,7 +4,5 @@ mail-user = "example-user@brown.edu"
 mail-type = "ALL"
 
 [xnat2bids-args]
-sessions = ["XNAT_E00114"]
-includeseq=[7,10]
-skipseq=[6]
-
+sessions = ["XNAT_E03266"]
+includeseq = ["anat-t1w_acq-memprage RMS"]
