@@ -20,4 +20,4 @@ includeseq = [7,10]
 includeseq = [6,11]
 
 [XNAT_E01943]
-includeseq = [5,11]
+includeseq = [6,19]
