@@ -2,55 +2,32 @@
     "mappings": [
         {
             "scans_to_correct": [
-                "anat-scout_acq-localizer",
+                "PhoenixZIPReport",
+                "anat-T1w_acq-memprageRMS_ND",
+                "anat-T1w_acq-memprage_MPR_Cor",
+                "anat-T1w_acq-memprage_MPR_Cor_ND",
+                "anat-T1w_acq-memprage_MPR_Tra",
+                "anat-T1w_acq-memprage_MPR_Tra_ND",
+                "anat-T1w_rec-refaced_acq-memprageRMS",
                 "anat-scout_acq-aascout",
-                "anat-scout_acq-aascoutMPRsag",
                 "anat-scout_acq-aascoutMPRcor",
+                "anat-scout_acq-aascoutMPRsag",
                 "anat-scout_acq-aascoutMPRtra",
-                "anat-T1w_acq-memprage",
-                "anat-T1w_acq-memprageRMS",
+                "anat-scout_acq-localizer",
+                "dwi_acq-b1500_dir-ap",
+                "dwi_acq-b1500_dir-pa",
                 "fmap_acq-boldGRE",
                 "func-bold_task-checks_run-01",
+                "func-bold_task-checks_run-01_WIP_PMU",
                 "func-bold_task-checks_run-02",
-                "func-bold_task-motionloc",
-                "func-bold_task-rest",
-                "dwi_acq-b1500_dir-ap_SBRef",
-                "dwi_acq-b1500_dir-ap",
-                "dwi_acq-b1500_dir-apTENSOR",
-                "fmap_acq-diffSE_dir-ap",
-                "dwi_acq-b1500_dir-pa_SBRef",
-                "dwi_acq-b1500_dir-pa",
-                "dwi_acq-b1500_dir-paTENSOR",
-                "fmap_acq-diffSE_dir-pa"
+                "func-bold_task-checks_run-02_WIP_PMU",
+                "func-bold_task-resting_run-01",
+                "func-bold_task-resting_run-01_WIP_PMU",
+                "mrs-mrsref_acq-PRESS_voi-Lacc",
+                "mrs-svs_acq-PRESS_voi-Lacc"
             ],
             "dicom_field": "PatientBirthDate",
             "new_value": "19880101"
-        },
-        {
-            "scans_to_correct": [
-                "anat-scout_acq-localizer",
-                "anat-scout_acq-aascout",
-                "anat-scout_acq-aascoutMPRsag",
-                "anat-scout_acq-aascoutMPRcor",
-                "anat-scout_acq-aascoutMPRtra",
-                "anat-T1w_acq-memprage",
-                "anat-T1w_acq-memprageRMS",
-                "fmap_acq-boldGRE",
-                "func-bold_task-checks_run-01",
-                "func-bold_task-checks_run-02",
-                "func-bold_task-motionloc",
-                "func-bold_task-rest",
-                "dwi_acq-b1500_dir-ap_SBRef",
-                "dwi_acq-b1500_dir-ap",
-                "dwi_acq-b1500_dir-apTENSOR",
-                "fmap_acq-diffSE_dir-ap",
-                "dwi_acq-b1500_dir-pa_SBRef",
-                "dwi_acq-b1500_dir-pa",
-                "dwi_acq-b1500_dir-paTENSOR",
-                "fmap_acq-diffSE_dir-pa"
-            ],
-            "dicom_field": "PatientID",
-            "new_value": "Anonymous"
         }
     ]
 }
