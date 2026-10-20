@@ -1,6 +1,6 @@
 [ 
     {
-      "series_description": "func-bold_task-resting",
-      "bidsname": "func-bold_task-rest"
+      "series_description": "func-bold_task-resting_run+",
+      "bidsname": "func-bold_task-rest_run+"
     }
 ]
